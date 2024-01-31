@@ -1,5 +1,6 @@
 To run the files, install the following packes as follows:
 
+````
 import os
 import torch
 os.environ['TORCH'] = torch.__version__
@@ -10,3 +11,4 @@ print(torch.__version__)
 !pip install -q git+https://github.com/pyg-team/pytorch_geometric.git
 !pip install einops
 !pip install wandb
+````
