@@ -51,9 +51,13 @@ Key goals:
    ```bash
    git clone https://github.com/ahariri13/Attention-rewiring-on-Proteins.git
    cd Attention-rewiring-on-Proteins
+   
+2. **Setup environment**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Linux/Mac
+   venv\Scripts\activate     # On Windows
 
-python -m venv venv
-source venv/bin/activate  # On Linux/Mac
-venv\Scripts\activate     # On Windows
-
-pip install -r requirements.txt
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
