@@ -8,23 +8,6 @@ This repository contains the official implementation of the paper:
 
 The core idea behind this work is to introduce a novel attention-rewiring mechanism tailored for protein structures. By refining the standard attention layers, our approach aims to capture the nuanced geometric and chemical interactions that drive protein folding and function.
 
----
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Repository Structure](#repository-structure)
-- [Datasets](#datasets)
-- [Results](#results)
-- [Citation](#citation)
-- [License](#license)
-- [Contributing](#contributing)
-- [Contact](#contact)
-
----
-
 ## Overview
 
 Modern deep learning techniques (particularly Transformer-based architectures) excel at capturing long-range dependencies in sequence data. However, protein sequences and structures pose unique challenges due to their 3D conformation and residue interactions. This project addresses these complexities by **rewiring** the conventional attention mechanism, ensuring that attention heads respect the physical and biochemical constraints of proteins.
