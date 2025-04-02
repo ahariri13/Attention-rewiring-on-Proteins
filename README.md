@@ -17,6 +17,8 @@ Key goals:
 2. **Improve performance** on protein-specific tasks such as secondary structure prediction or contact prediction.  
 3. **Retain interpretability** by providing a clear mechanism to visualize and understand how attention is redirected.
 
+![Alt text](images/attention_rewire_diagram.png)
+
 ---
 
 ## Features
